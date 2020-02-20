@@ -12,6 +12,6 @@ install:
   - conda env create -f environment.yml
   - source $(conda info --root)/etc/profile.d/conda.sh
   - conda activate $ASSIGNMENT
-  - "curl -H \"Authorization: token ${GH_TOKEN}\" -H 'Accept: application/vnd.github.v3.raw' -O --location \"https://api.github.com/repos/PGE383-HPC/${ASSIGNMENT}/contents/test.py\""
+  - "curl -H \"Authorization: token ${GH_TOKEN}\" -H 'Accept: application/vnd.github.v3.raw' -O --location \"https://api.github.com/repos/PGE310/${ASSIGNMENT}/contents/test.py\""
 script:
   - python test.py
