@@ -1,6 +1,6 @@
 # Homework Assignment 8
 
-[![Build Status](https://travis-ci.com/PGE310/assignment8.svg?token=SnMGq692xXXqxzyE6QSj&branch=master)](https://travis-ci.com/PGE310/assignment8)
+![Assignment 8](https://github.com/PGE310/assignment8/workflows/.github/workflows/main.yml/badge.svg)
 
 Open the [Assignment 8 Jupyter Notebook](assignment8.ipynb) and follow the instructions.
 
