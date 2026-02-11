@@ -19,7 +19,7 @@ jobs:
           --header 'Accept: application/vnd.github.v3.raw' \
           -O --location "https://api.github.com/repos/PGE311/${ASSIGNMENT}-solution/contents/environment.yml"
       - name: "Install environment"
-        uses: mamba-org/setup-micromamba@v1
+        uses: mamba-org/setup-micromamba@v2
         with:
           environment-file: environment.yml
       - name: "Fetch tests" 

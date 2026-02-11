@@ -1,10 +1,9 @@
 name: assignment8
 channels:
   - conda-forge
-  - defaults
 dependencies:
-  - nbconvert=6.4.5
-  - python=3.10.2
-  - ipython=8.1.1
+  - python=3.11.9
+  - ipython=8.25.0
+  - nbconvert=7.16.6
   - numpy=1.22.2
   - seaborn=0.11.2

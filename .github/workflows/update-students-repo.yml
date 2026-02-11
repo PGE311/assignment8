@@ -18,6 +18,10 @@ jobs:
         run: |
           find . -type f -not -path '*/\.*' -exec \
           sed -i "s|$ASSIGNMENT-solution|$ASSIGNMENT|g" {} +
+      - name: "Update devcontainer path"
+        shell: bash -l {0}
+        run: |
+          sed -i "s|assignment_name_placeholder|$ASSIGNMENT|g" .devcontainer/devcontainer.json
       - name: "Commit and push changes to assignment (without solution) repo"
         shell: bash -l {0}
         run: |
