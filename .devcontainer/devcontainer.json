@@ -1,6 +1,6 @@
 {
   "name": "Miniconda (Python 3)",
-  "image": "ghcr.io/pge311/assignment_name_placeholder/python-devcontainer:latest",
+  "image": "ghcr.io/pge311/assignment8/python-devcontainer:latest",
   "extensions": [ 
       "ms-python.python",
       "ms-toolsai.jupyter"
